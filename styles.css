@@ -1,3 +1,24 @@
-p [
- 
-]
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap1 {
+    width: 500px;
+
+
+}
+.border1 {
+    border: solid rgb(211, 209, 42) ;
+    border-width: 2px;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 90px auto;
+}
+
+.box1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(110, 11, 11);
+}
+
