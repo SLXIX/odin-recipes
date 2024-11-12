@@ -22,3 +22,12 @@ body {
     color: rgb(110, 11, 11);
 }
 
+.list {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(12, 15, 147, 0.993);
+}
+ul {
+    display: inline-block;
+    text-align: left;
+}
