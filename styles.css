@@ -22,18 +22,48 @@ body {
     color: rgb(110, 11, 11);
 }
 
-.list {
-    font-size: 20px;
+.title2 {
+    font-size: 35px;
+    font-weight: bold;
     text-align: center;
+    color: rgb(45, 6, 6);
+}
+
+.list {
+    font-size: 25px;
+    text-align: left;
     color: rgba(12, 15, 147, 0.993);
+}
+
+.list2 {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(38, 57, 10);
 }
 ul {
     display: inline-block;
     text-align: left;
 }
 
+/* no to close to the left, making some space, padding-left or margin-left */
+#left-close {
+padding-left: 25%;
+}
+
+.right-image {
+    display: block;
+    margin-left: auto;
+    margin-right: 15%;
+    width: 25%;
+}
+
 .color3 {
-    color:rgb(33, 76, 249)
+    color:rgb(33, 76, 249);
+    font-size: 25px;
+}
+
+.color4 {
+    color: rgb(128, 105, 22);
 }
 
 /* align all text to the center */
@@ -46,5 +76,5 @@ ul {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 }
