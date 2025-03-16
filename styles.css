@@ -1,5 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background:rgb(250, 245, 248)
+}
+
+.body-index {
+    background-color: white;
 }
 
 .wrap1 {
@@ -38,8 +43,14 @@ body {
 .list2 {
     font-size: 20px;
     text-align: left;
+    padding:8px;
     color: rgb(38, 57, 10);
 }
+
+.margin-bottom1 {
+    margin-bottom: 30px;
+}
+
 ul {
     display: inline-block;
     text-align: left;
@@ -77,4 +88,21 @@ padding-left: 25%;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+#container-1{
+    display: block;
+    margin: 5px auto;
+    padding: 8px 250px;
+}
+
+.border2 {
+    margin: 15px;
+    padding: 5px;
+    border: 3px rgb(115, 115, 115) inset;
+    width: 250px;
+}
+
+.border3 {
+    border: 10px gray groove;
 }
