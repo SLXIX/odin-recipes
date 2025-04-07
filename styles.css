@@ -49,6 +49,7 @@ body {
 
 .margin-bottom1 {
     margin-bottom: 30px;
+    display: block;
 }
 
 ul {
@@ -98,11 +99,29 @@ padding-left: 25%;
 
 .border2 {
     margin: 15px;
-    padding: 5px;
+    padding: 10px;
     border: 3px rgb(115, 115, 115) inset;
-    width: 250px;
+    width: 450px;
 }
 
 .border3 {
     border: 10px gray groove;
+}
+
+.inline-1 {
+    display: flex;
+    float: right;
+}
+
+.flex-con-1 {
+    background-color: peach;
+    border: 3px;
+    height: 100px;
+    flex: 1;
+}
+
+.space1 {
+    border: 10px;
+    margin: 35px;
+    padding:25px;
 }
